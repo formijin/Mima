@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Basic",
+    "isRecommended": false,
+    "price": {
+      "monthly": "10,000",
+      "quarterly": "27,000",
+      "biannual": "50,000",
+      "annual": "90,000"
+    },
+    "description": "For small and medium-sized businesses. Billed every month. Cancel anytime.",
+    "features": [
+      "Unlimited Invoices & Receipts (Naira Only)",
+      "Payment link (Naira Only)",
+      "Booking Naira (Naira Only)",
+      "Pay Bills",
+      "Debt Management",
+      "Wallet (Naira Only)",
+      "Business Insights/Reports",
+      "Virtual Bank Account"
+    ]
+  },
+  {
+    "name": "Premium ",
+    "isRecommended": true,
+    "price": {
+      "monthly": "20,000",
+      "quarterly": "54,000",
+      "biannual": "100,000",
+      "annual": "180,000"
+    },
+    "description": "For growing businesses with advanced needs. Billed every month. Cancel anytime.",
+    "features": [
+           "Unlimited Invoices & Receipts (Naira Only)",
+      "Payment Link (Naira, Dollars, Pounds and Euro)",
+      "Booking Naira (Naira, Dollars, Pounds and Euro)",
+      "Pay Bills",
+      "Debt Management",
+      "Inventory Management (50 Products)",
+      "Customer Management (Unlimited)",
+      "Employee Management (30)",
+      "Admin Management (3)",
+      "Payroll",
+      "Multi-currency Wallet",
+      "Multi-currency Checkout",
+      "Business Insights/Reports",
+      "Virtual Bank Account",
+      "Bulk SMS",
+      "Multi-Tenancy"
+    ]
+  },
+  {
+    "name": "Enterprise",
+    "isRecommended": false,
+    "price": {
+      "monthly": "30,000",
+      "quarterly": "81,000",
+      "biannual": "150,000",
+      "annual": "270,000"
+    },
+    "description": "For large businesses with custom requirements. Billed every month. Cancel anytime.",
+    "features": [
+      "Unlimited Invoices & Receipts (Naira Only)",
+      "Payment Link (Naira, Dollars, Pounds and Euro)",
+      " Booking Naira (Naira, Dollars, Pounds and Euro)",
+      "Pay Bills",
+      "Debt Management",
+      "Inventory Management (Unlimited)",
+      "Vendor Split Payment",
+      "Customer Management (Unlimited)",
+      "Employee Management (30)",
+      " Admin Management (3)",
+      " Payroll",
+      " Multi-currency Wallet",
+      " Multi-currency Checkout",
+      " Petty Cash",
+      " Business Insights/Reports",
+      " Virtual Bank Account",
+      " Bulk SMS",
+      " Multi-Tenancy"
+    ]
+  }
+]

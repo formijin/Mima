@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  background: var(--white);
+  position: sticky;
+ 
+  top: 0; 
+  z-index: 1000; 
+}
+.navbar .container {
+  margin: 0 auto;  
+  justify-content: space-between;
+    align-items: center;
+}
+
+.link-set {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  list-style: none;
+}
+.button-set {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.navbar .logo{
+    width: 112.8px;
+    height: 24px;
+}

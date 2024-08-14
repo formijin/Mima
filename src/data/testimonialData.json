@@ -1,0 +1,15 @@
+[
+    {
+      "quote": "I started using Mima to manage my business 3 months ago, the payroll system has made it easier for me to pay my workers and monitor what costs actually take more of my business capital.",
+      "name": "Jumoke Badmus",
+      "role": "Hill Crest Schools",
+      "image": "../../../src/assets/images/testimonials/user1.png"
+    },
+    {
+      "quote": "Mima has transformed the way we manage our financials.",
+      "name": "John Doe",
+      "role": "Tech Solutions",
+      "image": "./../../src/assets/images/testimonials/user1.png"
+    }
+  ]
+  

@@ -1,0 +1,116 @@
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  gap: 84px;
+}
+
+.carousel-track {
+  display: flex;
+  overflow-x: auto;
+  margin-right: -200px;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  gap: 56px;
+  scrollbar-width: none;
+  cursor: grab;
+}
+
+.carousel-track.dragging {
+  cursor: grabbing;
+  scroll-behavior: auto;
+}
+
+.carousel-track img {
+  scroll-snap-align: start; /* Snap to the start of each image */
+}
+
+.carousel-nav {
+  display: flex;
+  pointer-events: none;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+.carousel-nav-button {
+  pointer-events: all;
+  background-color: var(--pry-500);
+  color: var(--white);
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.carousel-nav-button:hover {
+  background-color: var(--grey-500);
+
+}
+
+.carousel-indicator {
+  height: 12px;
+  background-color: #E4E7EA;
+  border-radius: 7px;
+  overflow: hidden;
+  width: 100%;
+  max-width: 400px;
+}
+
+.carousel-progress {
+  height: 100%;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #009EDD 0%, #175AE4 100%);
+} 
+
+.carousel-card {
+  box-sizing: border-box;
+  display: flex;
+  min-width: 460px;
+  padding: 116px 60px 116px 60px;
+  align-items: flex-start;
+  gap: 30px;
+  flex-direction: column;
+  border-radius: 4px;
+}
+
+.carousel-card.card1 {
+  background: #e8eff2;
+}
+.carousel-card.card2 {
+  background: #f4eaeb;
+}
+.carousel-card.card3 {
+  background: #ece9f4;
+}
+.carousel-card.card4 {
+  background: #f4efe9;
+}
+.carousel-card.card5 {
+  background: #e9f3ed;
+}
+.carousel-card.card6 {
+  background: #ffd8e4;
+}
+
+.carousel-card .text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.carousel-card .text-group .title {
+  color: var(--grey-400);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px; /* 108.333% */
+}
+
+.carousel-card .text-group .body{
+  color: var(--grey-300);
+font-size: 16px;
+font-weight: 400;
+line-height: 28px; /* 175% */
+letter-spacing: -0.4px;
+}

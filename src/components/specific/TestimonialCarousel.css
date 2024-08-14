@@ -1,0 +1,135 @@
+.testimonial-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 84px;
+    align-self: stretch;
+}
+
+.testimonial-info {
+    display: flex;
+    height: 268px;
+    align-items: flex-end;
+    gap: 84px;
+    align-self: stretch;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Fade transition */
+}
+
+.testimonial-info.active {
+    opacity: 1;
+    
+}
+
+.testimonial-info .text-area {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+}
+
+.testimonial-info .image-area {
+    position: relative;
+    display: flex;
+    width: 480px;
+    height: 482px;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-info .quote {
+    color: var(--grey-100);
+    font-size: 29px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: -0.04px;
+}
+
+.testimonial-info .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.testimonial-info .user-info .name {
+    color: var(--pry-500);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: -0.04px;
+}
+
+.testimonial-info .user-info .role {
+    color: (--grey-100);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.04px;
+}
+
+.testimonial-info .image-area .frame-1 {
+    width: 232.035px;
+    height: 160px;
+    transform: rotate(-0.19deg);
+    position: absolute;
+    left: 0px;
+    bottom: 0.232px;
+}
+
+.testimonial-info .image-area .frame-2 {
+    width: 407px;
+    height: 347px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.testimonial-info .image-area .frame-3 {
+    width: 136px;
+    height: 136px;
+    position: absolute;
+    left: 313px;
+    top: 346px;
+}
+
+.carousel-controls {
+    display: flex;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    gap: 100px;
+}
+
+.carousel-controls button {
+    pointer-events: all;
+    background-color: var(--pry-500);
+    color: var(--white);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.carousel-controls button:hover {
+    background-color: var(--grey-500);
+}
+
+.carousel-indicators {
+    display: flex;
+    gap: 8px;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    background-color: var(--grey-500);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.indicator.active {
+    background-color: var(--pry-500); /* Active indicator color */
+}

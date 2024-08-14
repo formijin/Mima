@@ -1,0 +1,183 @@
+section.hero {
+  height: calc(100vh - 85px);
+  display: flex;
+  flex-direction: column;
+}
+.hero-set {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #f4f9ff;
+}
+.hero-image {
+  flex: 1 0 0;
+  height: 100%;
+
+  position: relative;
+}
+.hero-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the entire div */
+  object-position: top;
+}
+
+.hero .left-div {
+  display: flex;
+  padding: 0px 40px;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1 0 0;
+}
+.hero-text {
+  max-width: 673px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+}
+
+.hero-text h1 {
+  color: var(--pry-500);
+}
+
+.hero-text p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: -0.04px;
+  color: var(--grey-500);
+}
+
+.hero .banner {
+  background: var(--pry-500);
+  width: 100%;
+  color: var(--white);
+}
+.hero .banner h4 {
+  color: var(--white);
+}
+
+.partner-logo-set {
+  display: flex;
+  align-items: center;
+  gap: 78px;
+}
+.banner .container {
+  align-items: center;
+  justify-content: space-around;
+}
+section.description {
+  background: var(--white);
+}
+.description .container {
+  padding: 100px 40px;
+  align-items: center;
+  gap: 80px;
+}
+
+.description .text-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  width: 50%;
+  flex: 1 0 0;
+}
+.text-group .title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-self: stretch;
+}
+
+span {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px; /* 175% */
+  letter-spacing: -0.4px;
+  color: var(--pry-500);
+}
+
+.benefit {
+  flex-direction: column;
+  align-items: center;
+  background: #f4f9ff;
+  position: relative;
+}
+
+.benefit .container {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 50px 40px;
+  gap: 84px;
+  align-self: stretch;
+  position: relative;
+}
+
+.benefit .title-area {
+  display: flex;
+  justify-content: space-between;
+  align-self: stretch;
+  align-items: flex-start;
+}
+
+section.testimonial {
+  background: url("../../assets/images/Testimonial.png") center/cover no-repeat,
+    #ccedff;
+}
+
+.testimonial .container {
+  padding: 100px 40px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 80px;
+}
+.testimonial .title-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  align-self: stretch;
+}
+
+section.guide {
+  background: url("../../assets/images/Guide.png") center/cover no-repeat;
+  background-attachment: fixed;
+}
+.guide .container {
+  color: var(--white);
+  display: flex;
+  padding: 40px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.guide .text-area{
+  display: flex;
+width: 548px;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+}
+.guide p{
+font-size: 18px;
+font-weight: 400;
+letter-spacing: -0.4px;
+}
+.guide .button-set{
+  display: flex;
+align-items: flex-start;
+gap: 24px;
+}
+.guide a{
+  display: flex;
+width: 197px;
+padding: 14px 22px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}

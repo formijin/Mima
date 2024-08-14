@@ -1,0 +1,87 @@
+:root {
+  font-family: "DM sans", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --pry-600: #003c97;
+  --pry-500: #175ae4;
+  --pry-400: #0b83f4;
+  --pry-300: #35a4e9;
+  --pry-200: #5bc6f1;
+  --pry-100: #8be1f9;
+
+  --grey-500: #4b5162;
+  --grey-400: #4a4a68;
+  --grey-300: #8c8888;
+  --grey-200: #9898ab;
+  --grey-100: #5e615e;
+
+  --white: #ffffff;
+  --black: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  min-width: 320px;
+  width: 100%;
+  min-height: 100vh;
+  font-family: inherit;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px; /* 118.519% */
+  letter-spacing: -0.4px;
+}
+h2 {
+  font-size: 37px;
+  font-weight: 400;
+  line-height: 62px; /* 167.568% */
+  letter-spacing: -0.4px;
+}
+
+h3 {
+  font-size: 32px;
+
+  font-weight: 700;
+  line-height: 48px;
+}
+h4 {
+  font-size: 30px;
+  font-weight: 700;
+}
+h5 {
+  font-size: 24px;
+  font-weight: 500;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

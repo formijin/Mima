@@ -5,7 +5,7 @@ import HomeImage2 from '../../../src/assets/images/home image 2.png'
 import Carousel from '../../components/specific/carousel'
 import Pricing from '../../components/specific/Pricing'
 import './Home.css'
-import TestimonialCarousel from '../../components/specific/testimonialCarousel'
+import TestimonialCarousel from '../../components/specific/TestimonialCarousel'
 import Shield from '../../assets/images/Mima-Secure.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faApple, faGooglePlay} from '@fortawesome/free-brands-svg-icons'; 

@@ -2,14 +2,12 @@
   width: 100%;
   background: var(--white);
   position: sticky;
- 
-  top: 0; 
-  z-index: 1000; 
+  top: 0;
+  z-index: 1000;
 }
 .navbar .container {
-  margin: 0 auto;  
   justify-content: space-between;
-    align-items: center;
+  align-items: center;
 }
 
 .link-set {
@@ -30,7 +28,7 @@
   gap: 32px;
 }
 
-.navbar .logo{
-    width: 112.8px;
-    height: 24px;
+.navbar .logo {
+  width: 112.8px;
+  height: 24px;
 }

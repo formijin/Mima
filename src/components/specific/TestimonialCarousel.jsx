@@ -44,9 +44,9 @@ const TestimonialCarousel = () => {
           </div>
         </div>
         <div className="image-area">
-          <img src={Frame1} alt="Frame 1" className="frame-1" />
-          <img src={Frame2} alt="Frame 2" className="frame-2" />
-          <img src={Frame3} alt="Frame 3" className="frame-3" />
+          <img src={Frame1} alt="Frame 1" className="frame-1 " />
+          <img src={Frame2} alt="Frame 2" className="frame-2 " />
+          <img src={Frame3} alt="Frame 3" className="frame-3 animate" />
           <div
             style={{
               borderRadius: '4px 123px 4px 4px',

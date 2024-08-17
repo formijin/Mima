@@ -8,12 +8,13 @@
 .carousel-track {
   display: flex;
   overflow-x: auto;
-  margin-right: -200px;
+  margin-right: -300px;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   gap: 56px;
   scrollbar-width: none;
   cursor: grab;
+
 }
 
 .carousel-track.dragging {
@@ -71,6 +72,8 @@
   flex-direction: column;
   border-radius: 4px;
   user-select: none;
+  box-shadow: 6px 3px 10px 0px rgba(0, 0, 0, 0.08);
+  margin-bottom: 10px;
 }
 
 .carousel-card.card1 {

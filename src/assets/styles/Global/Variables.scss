@@ -1,0 +1,15 @@
+$pry-color-500: #003c97;
+$pry-color-400: lighten($pry-color-500, 23%);
+$pry-color-300: lighten($pry-color-500, 46%);
+$pry-color-200: lighten($pry-color-500, 69%);
+$pry-color-100: lighten($pry-color-500, 91%);
+
+$black-color: #0000;
+
+$grey-color-500: #272b36;
+$grey-color-400: lighten($grey-color-500,20%);
+$grey-color-300: lighten($grey-color-500, 40%);
+$grey-color-200: lighten($grey-color-500, 60%);
+$grey-color-100: lighten($grey-color-500, 80%);
+
+$white-color: #ffff;

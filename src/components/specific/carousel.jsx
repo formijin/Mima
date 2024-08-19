@@ -1,5 +1,7 @@
 import { useRef, useState, useEffect } from 'react';
 import BenefitCarouselCard from './BenefitCarouselCard';
+import { BenefitCarouselCard2 } from '../new-component/BenefitCarouselCard2'
+
 
 import './Carousel.css';
 
@@ -104,6 +106,7 @@ const Carousel = () => {
                     body={'Receive payments using your business name and easily manage your finances with our reliable platform. Trust us to handle your payments while you focus on growing your business'}
                     cardNumber={'6'}
                 />
+<BenefitCarouselCard2/>
             </div>
             <div className="carousel-nav">
                 <button className="carousel-nav-button left" onClick={scrollToLeft}>←</button>

@@ -13,3 +13,22 @@ $grey-color-200: lighten($grey-color-500, 60%);
 $grey-color-100: lighten($grey-color-500, 80%);
 
 $white-color: #ffff;
+
+:root {
+
+    --pry-600: #003c97;
+    --pry-500: #175ae4;
+    --pry-400: #0b83f4;
+    --pry-300: #35a4e9;
+    --pry-200: #5bc6f1;
+    --pry-100: #8be1f9;
+  
+    --grey-500: #4b5162;
+    --grey-400: #4a4a68;
+    --grey-300: #8c8888;
+    --grey-200: #9898ab;
+    --grey-100: #5e615e;
+  
+    --white: #ffffff;
+    --black: #000;
+  }
